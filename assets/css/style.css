@@ -109,9 +109,7 @@ h6 {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
-    #header .logo {
-        
-    }
+  
 
 #header .logo a {
   color: #78ccf0;
@@ -230,8 +228,7 @@ h6 {
         .navbar a,
         .navbar a:focus {
             display: flex;
-            align-items: center;
-            justify-content:;
+            align-items: center; 
             padding: 10px 10px 10px 10px;
             font-family: PoppinsBold;
             font-size: 28px;
@@ -1164,9 +1161,31 @@ h6 {
             border-right: none;
         }
         .image-container-testimonial{
-
+         position: relative;
+         z-index: 10;
         }
-
+        .e1-testimonial{
+            position:absolute;
+            width: 50%;
+            height: 50%;
+           
+            
+        }
+        .e2-testimonial{
+            position:absolute;
+            width: 50%;
+            height: 50%;
+           
+        }
+        .e3-testimonial{
+            position:absolute;
+            width: 50%;
+            height: 50%;
+         
+        }
+        .image-testimonial{
+            
+        }
 
     /*--------------------------------------------------------------
 # Pricing
