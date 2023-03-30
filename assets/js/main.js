@@ -291,7 +291,7 @@
 
     var modal = new bootstrap.Modal(myModalEl) // initialized with defaults
     setTimeout(function(){
-     // modal.show();
+      modal.show();
     },4000)
      
   });
