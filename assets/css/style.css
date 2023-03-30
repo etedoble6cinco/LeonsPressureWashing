@@ -1454,42 +1454,32 @@ h6 {
         border-radius: 15px;
     }
 
-    .contact h2 strong {
-        color: #78ccf0;
-    }
-
     .contact h2 {
-        color: #043185;
+        color: #1b3b6f;
         margin: 10px;
+        font-family: PoppinsBold;
+
     }
 
-    .contact .info-box i {
-        font-size: 32px;
-        color: #245187;
-        border-radius: 50%;
-        padding: 8px;
-        border: 2px dotted #f8d4d5;
+    .contact h2 strong {
+        color: #45b4e8;
+        font-family: PoppinsRegular;
+    }
+    .contact .section-title{
+        padding: 5px;
+        border: 3px solid #45b4e8;
+        border-radius: 5px;
     }
 
-    .contact .info-box h3 {
-        font-size: 20px;
-        color: #777777;
-        font-weight: 700;
-        margin: 10px 0;
-    }
 
-    .contact .info-box p {
-        padding: 0;
-        line-height: 24px;
-        font-size: 14px;
-        margin-bottom: 0;
-    }
+
 
     .contact .php-email-form {
-        box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+        
         padding: 30px;
-        border-radius: 15px;
+        border-radius: 5px;
     }
+  
 
         .contact .php-email-form .error-message {
             display: none;
@@ -1541,7 +1531,12 @@ h6 {
         .contact .php-email-form textarea {
             box-shadow: none;
             font-size: 14px;
-            border-radius: 15px;
+            border-radius: 5px;
+            border: 1px solid #09057e;
+            font-family:Arial, FontAwesome;
+        }
+        .contact .php-email-form{
+            font-family: PoppinsRegular;
         }
 
             .contact .php-email-form input:focus,
@@ -2286,21 +2281,47 @@ h6 {
         }
 
 /* second about section end */
+        .second-about{
+            background-color: #00276f;
+           
+        }
        .second-about-content{
         position:relative;
-        height: 100vh;
+         height: 120vh;
        }
-       .second-about-content img{
-            position: absolute;
+      
+    .second-about-title{
+        font-size: 48pt;
+        font-family: PoppinsRegular;
+        color: #45b4e8;
+
        }
-
-    .second-about-title p{
-        font-size: 30px;
-       }
-
-
-       second-about-subtitle {
+       .second-about-subtitle {
         
+        font-size: 48pt;
+        font-family: PoppinsRegular;
+        color: white;
+    }
+       .second-about-description{ 
+          font-family: PoppinsRegular;
+          font-size: 28pt;
+          color: #bee4f7;
        }
+       .second-about-main-image{
+        position: absolute;
+        max-width: 100%;
+       }
+       
+       .second-about-element img{
+        position: absolute;
+        max-width: 20%;
+        right: 5%;
+        top: 20%;
+       
+       }
+       .second-about-main-image img{
+        max-width:90%;
+       }
+
 
 /* ================= second about section finall */

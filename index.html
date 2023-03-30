@@ -26,6 +26,8 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -272,15 +274,21 @@
       </div>
     </section><!-- End Testimonials Section -->
     <!-- ======= Second About Section ======= -->
-    <section id="about" class="tabs section-bg">
+    <section id="SecondAbout"  class="second-about">
     <div class="container">
-      <div class="second-about-content">
+      <div class="second-about-content text-center">
         <p class="second-about-title">Pressure Washing</p>
         <p class="second-about-subtitle">Make Your Home Look New Again</p>
-        <img  class="img-fluid"src="assets/img/LeonsPresureWashing/Partes de la casa_.png" alt="">
-        <p class="second-about-description">We use the proper cleaning techniques to safety clean your homes exterior, contact us for a quote.</p> 
-      </div>
+        <div class="second-about-main-image">
+          <img  class="img-fluid"src="assets/img/LeonsPresureWashing/Partes de la casa_.png" alt="Pressure Wash">
+          <p class="second-about-description">We use the proper cleaning techniques to safety clean your homes exterior, contact us for a quote.</p> 
+        
+        </div>
       
+      </div>
+      <div class="second-about-element">
+        <img src="assets/img/LeonsPresureWashing/Elementos/E1.png" alt="">
+       </div>
     </div>
 
     
@@ -289,55 +297,64 @@
     <section id="contact" class="contact">
       <div class="container" data-aos="fade-up">
 
-        <div class="section-title">
+        <div class="section-title row text-center">
           <h2>Get A <strong>Pressure Washing </strong>Quote </h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
+      
         </div>
-
+        <div class="d-flex flex-row contact-element-container">
+          <div class="d-flex flex-column">
+            <img class="img-fluid" src="assets/img/LeonsPresureWashing/Elementos/I1.png" alt="">
+          </div>
+          <div class="d-flex flex-column">
+            <img class="img-fluid"  src="assets/img/LeonsPresureWashing/Elementos/I2.png" alt="">
+          </div>
+          <div class="d-flex flex-column">
+            <img class="img-fluid" src="assets/img/LeonsPresureWashing/Elementos/I3.png" alt="">
+          </div>
+          <div class="d-flex flex-column">
+            <img class="img-fluid" src="assets/img/LeonsPresureWashing/Elementos/I4.png" alt="">
+          </div>
+          <div class="d-flex flex-column">
+            <img  class="img-fluid" src="assets/img/LeonsPresureWashing/Elementos/I5.png" alt="">
+          </div>
+        
+           <div class="d-flex flex-column">
+            <img class="img-fluid" src="assets/img/LeonsPresureWashing/Elementos/I6.png" alt="">
+           </div>
+         
+    
+        </div>
         <div class="row" data-aos="fade-up" data-aos-delay="100">
 
-          <div class="col-lg-6">
-            <h3>Our Location</h3>
-            <div class="row">
-              <div class="col-md-12">
-                <div class="info-box">
-                  <i class="bx bx-map"></i>
-                  <h3>Our Address</h3>
-                  <p>A108 Adam Street, New York, NY 535022</p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="info-box mt-4">
-                  <i class="bx bx-envelope"></i>
-                  <h3>Email Us</h3>
-                  <p>info@example.com<br>contact@example.com</p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="info-box mt-4">
-                  <i class="bx bx-phone-call"></i>
-                  <h3>Call Us</h3>
-                  <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="col-lg-6 text-center">
-            <h3>Contact Information</h3>
+    
+          <div class="col-lg-12 text-start">
+         
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
+                <h3>Contact Information</h3>
                 <div class="col form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  <label for="name">First Name</label>
+                  <input type="text" name="name" class="form-control" id="name" placeholder="&#xf2c0;" required>
+                </div>
+                <div class="col form-group ">
+                  <label for="lastname">Last Name</label>
+                <input type="text" name="lastname" class="form-control" id="lastname" placeholder="&#xf007;" required>
+                </div>
+                
+              </div>
+              <div class="row">
+                <div class="col form-group">
+                  <label for="email"> Email</label>
+                  <input type="email" class="form-control" name="email" id="email" placeholder="&#xf0e0;" required>
                 </div>
                 <div class="col form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                  <label for="phonenumber"> Phone Number</label>
+                  <input type="text" class="form-control" name="phonenumber" id="phonenumber" placeholder="&#xf095;" required>
                 </div>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Address" required>
+                <label for="address">Address</label>
+                <input type="text" class="form-control" name="address" id="subject" placeholder="&#xf041;" required>
               </div>
 
               <div class="my-3">
